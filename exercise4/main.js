@@ -14,7 +14,7 @@ btn.addEventListener("click", showTodayDate);
 function getWindowWidthAndHeight() {
     let width = window.innerWidth;
     let height = window.innerHeight;
-    return {width, height};
+    return { width, height };
 }
 console.log(getWindowWidthAndHeight());
 
